@@ -1,0 +1,593 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.main{
+    position: relative;
+    background: linear-gradient(to top,rgb(250, 220, 246, 0.7),rgba(250, 220, 246, 0.7)),url(bg.jpg);
+    width:100vw;
+    height:100vh;
+    background-position:center;
+    background-size: cover;
+    
+}
+.icon{
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 30px;
+}
+.logo{
+    font-size: 50px;
+    color: rgb(133, 102, 243);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top:px;
+    margin-left:20px;
+}
+.nav{
+    width100vw;
+
+}
+.nav ul{
+    display:flex;
+    margin-left: 500px;
+    
+    
+}
+.nav ul li{
+    list-style: none;
+    float:left;
+    padding-top: 25px;
+    
+}
+.nav ul li a{
+    float:left;
+    text-decoration: none;
+    margin-left: 90px;
+    padding-top: 0px;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(106, 13,81);
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.nav ul li a:hover{
+    color: rgb(88, 88, 230);
+}
+
+.content{
+    font-size: 15px;
+    font-family: serif;
+
+}
+.content h1{
+    margin-top: 70px;
+    margin-left:60px;
+}
+.content h1 span{
+    color: rgb(133, 102, 243);
+}
+.info{
+    margin-top: 12px;
+    font-size: 15px;
+    margin-left:40px;
+    font-family: cursive;
+}
+.contactus{
+    margin-left: 80px;
+    margin-top:50px;
+    color:azure
+
+}
+.contactus button{
+    font-size: 25px;
+    font-family: serif;
+    background-color: rgb(106, 13, 81);
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border:1px solid rgb(106, 13, 81);
+    color: beige;
+    transition: 0.5s;
+    cursor: pointer;
+       
+}
+.contactus button:hover{
+    background-color: rgb(133, 102, 243);
+}
+.forms{
+ background:linear-gradient(to top,rgba(247, 244, 244, 0.7),rgba(247, 244, 244, 0.7));
+ text-align: center;
+ float: right;
+margin-top: -200px;
+margin-right:180px;
+width: 380px;
+height: 450px;
+
+
+ 
+}
+.forms input{
+     width:250px;
+     height: 35px;
+     background-color: rgb(245, 223, 239);
+    border:1px solid rgb(240, 199, 226);
+    cursor: pointer;
+    transition: 0.5 ease-in-out;
+    
+    
+    
+}
+
+
+.forms h2 {
+    background-color: rgb(106, 13, 81);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:rgb(244, 241, 241);
+    height:35px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+
+}
+.forms button{
+    background-color:rgb(106, 13, 81) ;
+    font-size: 20px;
+     width:140px;
+     height: 40px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     border: 1px solid white;
+     color: white;
+     border-top-left-radius: 1px;
+     border-top-right-radius:1px;
+     border-bottom-left-radius:1px;
+     border-bottom-right-radius:1px;
+     cursor: pointer;
+     transition: 0.5 ease-in-out;
+    
+}
+.forms button:hover{
+    background-color: rgb(133, 102, 243);
+}
+.forms p{
+    color: rgb(36, 34, 35);
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+.forms p a{
+    text-decoration: none;
+}
+.forms p1{
+    font-size: 20px;
+    margin-top: 2px;
+
+}
+.social{
+    font-size: 40px;
+    margin-top: 4px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.social ion-icon:hover{
+    color: rgb(133, 102, 243);
+}
+.all{
+    background:rgb(250, 220, 246, 0.7);
+    padding-bottom: vh;
+
+}
+
+.view{
+    color:black ;
+    font-size: 20px;
+    margin-left:28px;
+    margin-bottom: 20px;
+    margin-top: 22px;
+    
+
+}
+.podcast{
+    margin-left: 60px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    
+}
+.video{
+    text-align: center;
+    text-shadow: 2px solid rgb(133, 102, 243);
+
+    
+}
+.nothing{
+  font-size: 16px;
+  margin-left: 12px;
+  margin-top: 18px;
+  margin-bottom: 25px;
+  
+  
+}
+.video a{
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 18px;
+    font-size: 20px;
+    color:rgb(133, 102, 243);
+    cursor: pointer;
+}
+.video a:hover{
+    color:rgb(106, 13, 81)
+}
+.video1{
+    text-align:center;
+    margin-top: 25px;
+}
+
+.video1 a{
+    text-align: center;
+    text-decoration: none;
+    margin-bottom:18px;
+    font-size: 20px;
+    color:rgb(133, 102, 243);
+    cursor:pointer;
+}
+.video1 a:hover{
+    color:rgb(106, 13, 81);
+}
+.video2{
+    text-align: center;
+    margin-top: 25px;
+}
+.video2 p{
+    font-size: 20px;
+    margin-left: 12px;
+    margin-top: 18px;
+    margin-bottom: 25px;
+    
+}
+.video2 a{
+    text-align: center;
+    text-decoration: none;
+    margin-bottom:18px;
+    font-size: 20px;
+    color:rgb(133, 102, 243);
+    cursor:pointer;
+}
+.video2 a:hover{
+    color:rgb(106, 13, 81);
+}
+.video3{
+    text-align: center;
+    margin-top: 25px;
+}
+.video3 p{
+    font-size: 20px;
+    margin-left: 12px;
+    margin-top: 18px;
+    margin-bottom: 25px;
+    
+}
+.video3 a{
+    text-align: center;
+    text-decoration: none;
+    margin-bottom:18px;
+    font-size: 20px;
+    color:rgb(133, 102, 243);
+    cursor:pointer;
+}
+.video3 a:hover{
+    color:rgb(106, 13, 81);
+}
+.video4{
+    text-align: center;
+    margin-top: 25px;
+}
+.video4 p{
+    font-size: 20px;
+    margin-left: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.video4 a{
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 20px;
+    color:rgb(133, 102, 243);
+    cursor:pointer;
+    
+}
+.video4 a:hover{
+    color:rgb(106, 13, 81);
+}
+.video5{
+    text-align: center;
+    margin-top: 25px;
+}
+.video5 p{
+    font-size: 20px;
+    margin-left: 12px;
+    margin-top: 18px;
+    margin-bottom: 25px;
+    
+}
+.video5 a{
+    text-align: center;
+    text-decoration: none;
+    padding-bottom:18px;
+    font-size: 20px;
+    color:rgb(133, 102, 243);
+    cursor:pointer;
+    margin-top:20px;
+}
+.video5 a:hover{
+    color:rgb(106, 13, 81);
+}
+.gopi{
+    
+    float:right;
+    font-size: 20px;
+}
+.gopi button{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(133, 102, 243);
+    font-size: 20px;
+    cursor: pointer;
+    border:none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.gopi button:hover{
+    background-color: rgb(106, 13, 81);
+    border:none;
+}
+.aishu{
+    
+    float:left;
+    font-size: 20px;
+}
+.aishu button{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(133, 102, 243);
+    font-size: 20px;
+    cursor: pointer;
+    border:none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.aishu button:hover{
+    background-color: rgb(106, 13,81);
+}
+
+.total{
+    background: rgb(250, 220, 246, 0.7);
+    padding-bottom: 10vh;
+    
+    
+    
+}
+.head{
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    
+    padding-top: 30px;
+    
+    
+}
+.one{
+    margin-left: 100px;
+    margin-right:10px;
+    margin-bottom:40px;
+    
+}
+.two{
+    margin-left: 10px;
+    margin-right:10px;
+    margin-bottom: 40px;
+    
+}
+.three{
+    margin-left:10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    
+}
+.four{
+    margin-left: 10px;
+    margin-right:10 px;
+    margin-bottom: 40px;
+    
+}
+
+.a{
+    margin-right:30px;
+    margin-left: 180px;
+    margin-bottom: 30px;
+    
+
+}
+.b{
+    margin-right:30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.c{
+    margin-right:30px;
+    margin-left: 48px;
+    margin-bottom: 30px;
+}
+.d{
+    margin-right:30px;
+    margin-left: 180px;
+    margin-bottom: 30px;
+}
+.e{
+    margin-right:30px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+.f{
+    margin-right:30px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+}
+.chicky{
+    background: rgb(250, 220, 246, 0.7);
+    padding-bottom: 10vh;
+}
+.about{
+    font-size: 20px;
+    padding-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+}
+
+
+.long{
+    font-size: 18px;
+    margin-left:20px;
+    margin-top: 60px;
+    
+}
+.us{
+    background: rgb(250, 220, 246, 0.7);
+    height:100vh;
+    
+}
+.hello{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-family: serif;
+    font-size: 30px;
+}
+.hello span{
+    margin-left: 80px;
+}
+.name{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(47, 46, 47);
+    
+}
+.name{
+    font-size:30px;
+    margin-bottom: 12px;
+    margin-top:12px;
+}
+.part2{
+    text-align: center;
+    font-size: 30px;
+
+}
+.part2ion-icon{
+    font-size: 30px;
+}
+.part2 a{
+    text-decoration: none;
+    color: rgb(106,13,81);
+    cursor: pointer;
+}
+.part2 a:hover{
+    color: rgb(133, 102, 243);
+
+}
+.social1 a{
+    
+    font-size: 70px;
+    color:rgb(106, 13, 81); 
+    text-align: center;
+    cursor: pointer;
+    
+    
+}
+.social1{
+    text-align: center;
+    margin-top: 30px;
+}
+.social1 a:hover{
+    color: rgb(133, 102, 243);
+
+}
+.log{
+    padding:0;
+    margin:0;
+    position: relative;
+    background: linear-gradient(to top,rgb(250, 220, 246, 0.7),rgba(250, 220, 246, 0.7)),url(bg.jpg);
+    width:100vw;
+    height:100vh;
+    background-position:center;
+    background-size: cover;
+    
+}
+.forms1{
+    background:linear-gradient(to top,rgba(247, 244, 244, 0.7),rgba(247, 244, 244, 0.7));
+    text-align: center;
+    margin-top: 80px;
+    margin-left:480px;
+     width: 380px;
+     height: 350px;
+   
+ 
+   }
+   .forms1 input{
+        width:250px;
+        height: 35px;
+        background-color: rgb(245, 223, 239);
+       border:1px solid rgb(240, 199, 226);
+       cursor: pointer;
+       transition: 0.5 ease-in-out;
+       
+       
+       
+   }
+   
+   
+   .forms1 h2 {
+       background-color: rgb(106, 13, 81);
+       margin-top: 20px;
+       margin-bottom: 20px;
+       color:rgb(244, 241, 241);
+       height:35px;
+       font-family:Arial, Helvetica, sans-serif;
+       font-size: 30px;
+   
+   }
+   .forms1 button{
+       background-color:rgb(106, 13, 81) ;
+       font-size: 20px;
+        width:140px;
+        height: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 1px solid white;
+        color: white;
+        border-top-left-radius: 1px;
+        border-top-right-radius:1px;
+        border-bottom-left-radius:1px;
+        border-bottom-right-radius:1px;
+        cursor: pointer;
+        transition: 0.5 ease-in-out;
+       
+   }
+   .forms1 button:hover{
+       background-color: rgb(133, 102, 243);
+   }
+   .forms1 p{
+       color: rgb(36, 34, 35);
+       font-size: 15px;
+       margin-bottom: 6px;
+   }
+   .forms1 p a{
+       text-decoration: none;
+   }
+   .forms1 p1{
+       font-size: 20px;
+       margin-top: 2px;
+   
+   }
+   .forms1{}
